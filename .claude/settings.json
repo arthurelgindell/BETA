@@ -1,0 +1,44 @@
+{
+  "model": "claude-opus-4-5-20251101",
+  "respectGitignore": true,
+  "permissions": {
+    "allow": [
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(npx *)",
+      "Bash(pnpm *)",
+      "Bash(git *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)",
+      "Bash(rm *)",
+      "Bash(mv *)",
+      "Bash(cp *)",
+      "Bash(chmod *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(pip *)",
+      "Bash(pip3 *)",
+      "Bash(brew *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(docker *)",
+      "Bash(docker-compose *)",
+      "Write",
+      "Edit",
+      "Read",
+      "Glob",
+      "Grep",
+      "Task(*)"
+    ],
+    "deny": []
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "explanatory-output-style@claude-plugins-official": true
+  }
+}
